@@ -1,0 +1,30 @@
+body {
+	font-family: "Abel";
+	text-align: center;
+	background : url('1.jpg') center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#generator {
+	width:90%;
+	margin:0 auto;
+}
+
+#generator textarea{
+	width:30%;
+	height: 500px;
+	background: rgba(225, 225, 225, 0.5);
+	color: #1A1A1A;
+}
+
+#generator input[type=submit] {
+	display:block;
+	width:30%;
+	margin:20px auto;
+	background: #E4B783;
+	border:1px solid #f2f2f2;
+	padding:10px 0px;
+	font-size: 15px;
+	font-family: "Abel";
+}
